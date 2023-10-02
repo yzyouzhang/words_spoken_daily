@@ -8,7 +8,26 @@ To use this code effectively, you'll need to provide the following for each part
 - A separate recording of reading passages to enroll the participant's voice.
 
 ### Download Our Pre-trained Model
-To get started, please download our pre-trained speaker tracking model from this [Google Drive link](https://drive.google.com/) and then place the downloaded model file into the `model` folder of this repository.
+To get started, please download our pre-trained speaker tracking model from this [Google Drive link](https://drive.google.com/file/d/1A-WV_qTYyj4MXyU8fKH1B05EH-3B3ISd/view?usp=sharing) and then place the downloaded model file into the `model` folder of this repository.
+
+### Setting up the Environment
+
+To set up the required Python environment for running the code, you can use the provided `requirements.txt` file. Here's how:
+
+1. First, make sure you have Python 3 installed on your system.
+
+2. Create a virtual environment (optional but recommended):
+
+   ```
+   python3 -m venv venv
+   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+   ```
+
+3. Install the required packages using pip:
+
+   ```
+   pip install -r requirements.txt
+   ```
 
 ### Running the Code
 Once you've obtained the necessary data and downloaded the pre-trained model, you can run the code using the following command:
